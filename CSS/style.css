@@ -1,0 +1,105 @@
+h1 {
+         color: #836f94;
+         background-color: #B0CBCC;
+         margin-left: 20px;
+       }
+p {
+         color: blue;
+         font-family: 'The Nautigal', cursive;
+         font-size: 28px;
+       }
+
+.classTest {
+    color: #6A6B83;
+    background-color: #b8cbd1;
+}
+
+#heading{
+    color: #8a44a6;
+    background-color: #d3bbff;
+}
+
+hr {
+    border-style: none;
+   border-top-style: dotted;
+   /*height: 2px; */
+   width: 70%;
+   /*background-color:white; */
+   border-width: 5px;
+   border-color: royalblue;
+}
+.section{
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  width: 80%;
+  margin: 1rem auto 0 auto;
+  text-align: center;
+}
+.section img{
+  height: 250px;
+}
+
+div.introtext{
+  text-align: center;
+  margin-bottom: 20px;
+  position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.container{
+  display: flex;
+  align-content: center;
+}
+.container div{
+  align-items: center;
+  margin: 20px;
+  width: 100%;
+}
+.div1{
+  width: 50%;
+  float: left;
+}
+.div2{
+  width: 50%;
+  float: right;
+}
+
+.box{
+  position: relative;
+  top: 50%;
+  left: 40%;
+}
+
+.endpic{
+  position: relative;
+  top: 50%;
+  left: 35%;
+}
+
+.myButton {
+	box-shadow: 3px 4px 0px 0px #2d8aa6;
+	background:linear-gradient(to bottom, #edd5ed 5%, #ba7eba 100%);
+	background-color:#edd5ed;
+	border-radius:15px;
+	border:1px solid #bf4cbf;
+	display:inline-block;
+	cursor:pointer;
+	color:#275d6b;
+	font-family:Arial;
+	font-size:17px;
+	padding:7px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #838dfc;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #ba7eba 5%, #edd5ed 100%);
+	background-color:#ba7eba;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
