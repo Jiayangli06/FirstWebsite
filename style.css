@@ -1,5 +1,5 @@
 body{
-  background-color: #d6c8d5;
+  background-color: #bc9f9f;
   margin: 0;
 }
 
@@ -20,7 +20,7 @@ p {
 }
 
 #heading{
-    color: #8a44a6;
+    color: #6a6b83;
     background-color: #b6b4c2;
 }
 
@@ -36,7 +36,7 @@ hr {
 .container{
   display: flex;
   align-content: center;
-  background-color: #e5c1cd;
+  background-color: #747183;
  padding-bottom:100px;
  width: 100%;
 }
@@ -81,23 +81,23 @@ hr {
 }
 
 .myButton {
-	box-shadow: 3px 4px 0px 0px #2d8aa6;
-	background:linear-gradient(to bottom, #edd5ed 5%, #ba7eba 100%);
-	background-color:#edd5ed;
+	box-shadow: 3px 4px 0px 0px #3c4f54;
+	background:linear-gradient(to bottom, #8884b3, #bba5bb 100%);
+	background-color:#a796a7;
 	border-radius:15px;
-	border:1px solid #bf4cbf;
+	border:1px solid #2a122a;
 	display:inline-block;
 	cursor:pointer;
-	color:#275d6b;
+	color:#1a2a2e;
 	font-family:Arial;
 	font-size:17px;
 	padding:7px 25px;
 	text-decoration:none;
-	text-shadow:0px 1px 0px #838dfc;
+	text-shadow:0px 1px 0px #42445c;
   margin-bottom: 5%;
 }
 .myButton:hover {
-	background:linear-gradient(to bottom, #ba7eba 5%, #edd5ed 100%);
+	background:linear-gradient(to bottom, #a070a0 5%, #edd5ed 100%);
 	background-color:#ba7eba;
 }
 .myButton:active {
@@ -106,7 +106,7 @@ hr {
 }
 
 .Me{ 
-  color: rgb(102, 102, 163);
+  color: #293742;
 }
 
 .title{
@@ -116,7 +116,7 @@ hr {
     z-index: 1001;
     padding-top: 5px;
     padding-bottom: 5px;
-    background-color: #b9d4d8;
+    background-color: #dcd1d2;
     box-sizing: border-box;
     width: 100%;
 }
@@ -175,5 +175,6 @@ hr {
 
 .Sm{
   text-align: center;
-  background-color: #f1f3cf;
+  color: #8c8b96;
+  background-color: #293742;
 }
