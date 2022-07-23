@@ -1,5 +1,5 @@
 body{
-  background-color: #ebe7f0;
+  background-color: #c9bbc8;
   margin: 0;
 }
 
@@ -36,8 +36,9 @@ hr {
 .container{
   display: flex;
   align-content: center;
-  background-color: #ebdbe3;
+  background-color: #e5c1cd;
  padding-bottom:100px;
+ width: 100%;
 }
 .container div{
   align-items: center;
@@ -115,7 +116,7 @@ hr {
     z-index: 1001;
     padding-top: 5px;
     padding-bottom: 5px;
-    background-color: #c2c7ce;
+    background-color: #aac9ce;
     box-sizing: border-box;
     width: 100%;
 }
@@ -174,5 +175,5 @@ hr {
 
 .Sm{
   text-align: center;
-  background-color: #c7aac7;
+  background-color: #f1f3cf;
 }
