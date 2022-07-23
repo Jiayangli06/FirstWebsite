@@ -1,6 +1,10 @@
+body{
+  background-color: #ebe7f0;
+  margin: 0;
+}
+
 h1 {
          color: #836f94;
-         background-color: #B0CBCC;
          margin-left: 20px;
        }
 p {
@@ -11,7 +15,8 @@ p {
 
 .classTest {
     color: #6A6B83;
-    background-color: #b8cbd1;
+    background-color: #baabdb;
+    
 }
 
 #heading{
@@ -20,38 +25,19 @@ p {
 }
 
 hr {
-    border-style: none;
-   border-top-style: dotted;
-   /*height: 2px; */
-   width: 70%;
-   /*background-color:white; */
-   border-width: 5px;
-   border-color: royalblue;
-}
-.section{
-  display: flex;
-  justify-content: space-between;
-  padding: 40px;
-  width: 80%;
-  margin: 1rem auto 0 auto;
-  text-align: center;
-}
-.section img{
-  height: 250px;
+   height: 2px;
+   width: 100%;
+   margin-top: 0;
+   color: #275d6b;
+   margin-bottom: -21px;
 }
 
-div.introtext{
-  text-align: center;
-  margin-bottom: 20px;
-  position: relative;
-    min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
-}
 
 .container{
   display: flex;
   align-content: center;
+  background-color: #ebdbe3;
+ padding-bottom:100px;
 }
 .container div{
   align-items: center;
@@ -61,16 +47,30 @@ div.introtext{
 .div1{
   width: 50%;
   float: left;
+  padding: 10px;
+  min-width: 200px;
+  width: calc(100% - 70px);
+  height: 300px;
+  object-fit: cover;
+  float: none;
+  border-radius: 0px;
+  margin-bottom: 0px;
 }
 .div2{
   width: 50%;
   float: right;
+  padding: 10px;
+  min-width: 200px;
+  width: calc(100% - 70px);
+  height: 300px;
+  object-fit: cover;
+  float: none;
+  border-radius: 25px;
+  margin-bottom: 0px;
 }
 
 .box{
   position: relative;
-  top: 50%;
-  left: 40%;
 }
 
 .endpic{
@@ -93,6 +93,7 @@ div.introtext{
 	padding:7px 25px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #838dfc;
+  margin-bottom: 5%;
 }
 .myButton:hover {
 	background:linear-gradient(to bottom, #ba7eba 5%, #edd5ed 100%);
@@ -103,3 +104,75 @@ div.introtext{
 	top:1px;
 }
 
+.Me{ 
+  color: rgb(102, 102, 163);
+}
+
+.title{
+  position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1001;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #c2c7ce;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+
+
+.div3{
+  width: 50%;
+  float: left;
+}
+.div4{
+  width: 50%;
+  float: right;
+}
+
+.section{
+  margin: 30px ;
+  margin-top: 125px;
+}
+
+.myButton1{
+	border:none;
+	cursor:pointer;
+	color:#006079; 
+  padding: 0;
+  margin-left: 20%;
+}
+
+.myButton1 img{
+  padding: 10px;
+  min-width: 200px;
+  height: 300px;
+  object-fit: cover;
+  float: none;
+  border-radius: 25px;
+  margin-bottom: 0px;
+  border-color: rgb(5, 5, 5);
+  border-width: 100px;
+}
+
+.buttontext{
+  width: 100%;
+  position: relative;
+  margin-top: -40%;
+  left: 180px;
+  top: 15px;
+  margin-right: 0%;
+}
+
+.buttontext h3{
+  text-align: center;
+  color: rgb(36, 33, 33);
+  font-size: 16px;
+  font-family: cursive;
+}
+
+.Sm{
+  text-align: center;
+  background-color: #c7aac7;
+}
